@@ -1,0 +1,110 @@
+.dialogbox {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.dialogbox img{
+    object-fit: cover;
+}
+
+.Home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PostItem h5, .PostItem p {
+    margin: 0;
+}
+
+.PostContent {
+    padding: 8px;
+}
+
+.PostMetadata {
+    padding: 0 8px;
+    padding-bottom: 8px;
+}
+
+.PostItem {
+    flex: 1 0 21%;
+    margin: 1rem;
+    background-color: white;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.PostItem img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+.PostItem .content {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 40px;
+}
+
+.PostPage {
+    width: 60%;
+    margin: 2rem auto;
+    background: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.PostPage h1, .PostPage p{
+    margin-top: 1rem;
+}
+
+.PostPage p {
+    font-size: 1.2rem;
+}
+
+
+.PostPage img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.DashPosts {
+    width: 100%;
+}
+
+.MyList {
+    width: 100%;
+}
+
+.MyItem {
+    background: #eee;
+    padding: 8px;
+    margin: 8px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.MyItem p {
+    margin: 0;
+}
+
+.Actions {
+    display: flex;
+    align-items: center;
+}
+
+.Actions svg {
+    margin-right: 8px;
+}
+
+
+.Actions svg:hover{
+    cursor: pointer;
+    color: #1C8EF9;
+}
